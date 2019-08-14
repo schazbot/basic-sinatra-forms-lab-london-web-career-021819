@@ -2,23 +2,37 @@
 <html>
  <head>
   <meta charset="UTF-8">
-  <title>Basketball Team Signup</title>
+  <title>Basketball Team</title>
  </head>
  <body>
 
+ <h4>Welcome to NBA Jam TE</h4>
+ 
+ <form method="POST" action="/team">
+ <label>Team name</label>
+ <input type="text" name="name"/>
+ <br>
+ <label>Coach</label>
+ <input type="text" name="coach"/>
+ <br>
+ <label>Point Guard</label>
+ <input type="text" name="pg"/>
+ <br>
+ <label>Shooting Guard</label>
+ <input type="text" name="sg"/>
+ <br>
+ <label>Power Forward</label>
+ <input type="text" name="pf"/>
+ <br>
+ <label>Small Forward</label>
+ <input type="text" name="sf"/>
+ <br>
+ <label>Center</label>
+ <input type="text" name="c"/>
+ <br>
+ <input id="Submit"type="submit">
+ </form>
 
 
-<h1>Welcome to NBA Jam</h1>
-<form method="POST" action="/team">
-  <p>Team Name: <input type="text" name="name"></p>
-  <p>Coach: <input type="text" name="coach"></p>
-  <p>Point Guard: <input type="text" name="pg"></p>
-  <p>Shooting Guard: <input type="text" name="sg"></p>
-  <p>Power Forward: <input type="text" name="pf"></p>
-  <p>Small Forward: <input type="text" name="sf"></p>
-  <p>Centre: <input type="text" name="c"></p>
-
-  <input type="submit" id="Submit">
-</form>
-</body>
+ </body>
 </html>
